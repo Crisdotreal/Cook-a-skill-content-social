@@ -56,7 +56,7 @@ The term "Content Team" in this spec refers specifically to the following person
 
 ## 4. Input Requirements
 
-### 3.1 Product Spec File (Primary Input)
+### 4.1 Product Spec File (Primary Input)
 
 The primary input is the brand's **`product_spec.md`** file. This file is the single source of truth — brand context is embedded directly into the spec, eliminating the need for a separate configuration file.
 
@@ -82,7 +82,7 @@ The Skill reads this file at the start of each session and extracts these fields
 | `value_proposition` | Used to bridge into the brand in Reply Strategy (Soft Plug). |
 | `blacklist` | Safety filter applied before any content is generated. |
 
-### 3.2 Session Goal — Clarifying Question
+### 4.2 Session Goal — Clarifying Question
 
 Before execution, the AI will ask the user to define the session's objective:
 
@@ -90,6 +90,7 @@ Before execution, the AI will ask the user to define the session's objective:
 >
 > - **(A) News Hunting** — Breaking news & updates. Prioritizes the freshest trends; output focuses on Content Drafts.
 > - **(B) Community Engagement** — High-value replies & discussions. Prioritizes Reply Strategy; scans for actively trending threads within the niche.
+> - **(C) Evergreen Only** — Educational & Deep Dive content. No trend dependency. Use this when the market is slow or you want to publish foundational content (e.g., "Back to Basics", "Thesis breakdown") based on `niche_keywords`.
 
 > ⚠️ **MVP Note:** Sentiment Analysis (Fear/Greed) is excluded from v1.0 — output format is not yet defined. Scheduled for design in v1.1.
 
