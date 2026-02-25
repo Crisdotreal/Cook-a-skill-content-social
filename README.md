@@ -378,13 +378,3 @@ START
 - **v2.0** — ML-based scoring that learns from user feedback
 
 ---
-
-## 📜 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-<p align="center">
-  <strong>Stop chasing trends. Start sniping them. 🎯</strong>
-</p>
